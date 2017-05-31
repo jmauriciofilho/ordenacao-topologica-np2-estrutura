@@ -21,7 +21,7 @@ public class OrdenacaoTopologica {
             }
         }
 
-        while (fila != null){
+        while (!fila.vazia()){
             removerDependencias(fila, tarefas, resultado);
         }
 
