@@ -39,7 +39,6 @@ public class OrdenacaoTopologica {
                     Tarefa tarefa = iter.next();
                     if (dependente == tarefa.getValor()){
                         tarefa.setNumeroDeDependecias(tarefa.getNumeroDeDependecias() - 1);
-                        listaDeDependentes.remove(dependente);
                         if (numeroDepenenciasIgualAZero(tarefa.getNumeroDeDependecias())){
                             fila.insert(tarefa);
                             iter.remove();
