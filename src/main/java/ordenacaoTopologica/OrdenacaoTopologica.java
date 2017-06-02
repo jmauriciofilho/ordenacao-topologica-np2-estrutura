@@ -14,7 +14,7 @@ public class OrdenacaoTopologica {
         Iterator<Tarefa> iter = tarefas.iterator();
         while (iter.hasNext()){
             Tarefa tarefa = iter.next();
-            excluirTarefa(iter, fila, tarefa);
+            trasferindoTarefaDeTarefasParaFila(iter, fila, tarefa);
 
         }
 
@@ -36,7 +36,7 @@ public class OrdenacaoTopologica {
                     Tarefa tarefa = iter.next();
                     if (dependente == tarefa.getValor()){
                         tarefa.setNumeroDeDependecias(tarefa.getNumeroDeDependecias() - 1);
-                        excluirTarefa(iter, fila, tarefa);
+                        trasferindoTarefaDeTarefasParaFila(iter, fila, tarefa);
                     }
                 }
             }
@@ -48,7 +48,7 @@ public class OrdenacaoTopologica {
         return numeroDeDependencias == 0;
     }
 
-    private static void excluirTarefa(Iterator<Tarefa> iter, Fila<Tarefa> fila, Tarefa tarefa){
+    private static void trasferindoTarefaDeTarefasParaFila(Iterator<Tarefa> iter, Fila<Tarefa> fila, Tarefa tarefa){
         if (numeroDepenenciasIgualAZero(tarefa.getNumeroDeDependecias())){
             fila.insert(tarefa);
             iter.remove();
