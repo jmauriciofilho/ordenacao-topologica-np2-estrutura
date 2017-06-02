@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0350a0af-4a7c-41c9-88ae-c40bab916c90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/OrdenacaoTopologica.java" afterPath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/OrdenacaoTopologica.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/entrada" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,34 +18,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OrdenacaoTopologica.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/OrdenacaoTopologica.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="80">
+              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
-                <element signature="e#1589#1590#0" expanded="true" />
-                <element signature="e#1637#1638#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tarefa.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Tarefa.java">
+      <file leaf-file-name="entrada" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/entrada">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TesteOrdenacaoTopologica.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TesteOrdenacaoTopologica.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="892">
-              <caret line="57" column="39" lean-forward="false" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -79,6 +71,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Fila.java" />
         <option value="$PROJECT_DIR$/src/test/java/TesteOrdenacaoTopologica.java" />
         <option value="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/OrdenacaoTopologica.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/entrada" />
+        <option value="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Main.java" />
       </list>
     </option>
   </component>
@@ -200,7 +194,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EstruturaDadosNP2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TrabalhoEstruturaNP2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -214,10 +208,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TesteOrdenacaoTopologica">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="TesteOrdenacaoTopologica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TesteOrdenacaoTopologica" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="OrdenacaoTopologica" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ordenacaoTopologica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ordenacaoTopologica.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -633,12 +647,14 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.TesteOrdenacaoTopologica" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.TesteOrdenacaoTopologica" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TesteOrdenacaoTopologica" />
       </list>
     </recent_temporary>
   </component>
@@ -665,12 +681,12 @@
       <workItem from="1496013916190" duration="2915000" />
       <workItem from="1496065287275" duration="69000" />
       <workItem from="1496249540347" duration="11241000" />
-      <workItem from="1496407787911" duration="8494000" />
+      <workItem from="1496407787911" duration="13886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50357000" />
+    <option name="totallyTimeSpent" value="55749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -686,7 +702,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -724,27 +740,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/OrdenacaoTopologica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Fila.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TesteOrdenacaoTopologica.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
@@ -758,8 +753,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="false" />
+            <element signature="e#1637#1638#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -787,8 +782,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="false" />
+            <element signature="e#1637#1638#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -816,8 +811,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="false" />
+            <element signature="e#1637#1638#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -846,8 +841,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="false" />
+            <element signature="e#1637#1638#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -876,8 +871,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="false" />
+            <element signature="e#1637#1638#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -906,8 +901,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="false" />
+            <element signature="e#1637#1638#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -936,8 +931,8 @@
         <state relative-caret-position="580">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="false" />
+            <element signature="e#1637#1638#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -966,8 +961,8 @@
         <state relative-caret-position="560">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="false" />
+            <element signature="e#1637#1638#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -996,8 +991,8 @@
         <state relative-caret-position="580">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="false" />
+            <element signature="e#1637#1638#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1026,8 +1021,8 @@
         <state relative-caret-position="180">
           <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
           <folding>
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="false" />
+            <element signature="e#1637#1638#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1073,6 +1068,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TesteOrdenacaoTopologica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="57" column="39" lean-forward="false" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Tarefa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1081,21 +1084,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TesteOrdenacaoTopologica.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/entrada">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="892">
-          <caret line="57" column="39" lean-forward="false" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/OrdenacaoTopologica.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="false" />
+            <element signature="e#1637#1638#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
           </folding>
         </state>
       </provider>
