@@ -14,11 +14,11 @@ public class OrdenacaoTopologica {
         Iterator<Tarefa> iter = tarefas.iterator();
         while (iter.hasNext()){
             Tarefa tarefa = iter.next();
-            if(numeroDepenenciasIgualAZero(tarefa.getNumeroDeDependecias()) &&
-                    tarefa.getListaDeDependentes() == null){
+            if(numeroDepenenciasIgualAZero(tarefa.getNumeroDeDependecias())){
                 fila.insert(tarefa);
                 iter.remove();
             }
+
         }
 
         while (!fila.vazia()){
@@ -34,13 +34,15 @@ public class OrdenacaoTopologica {
         List<Integer> listaDeDependentes = primeiroDaFila.getListaDeDependentes();
         if (listaDeDependentes != null){
             for (int dependente : listaDeDependentes){
-                for (Tarefa tarefa : tarefas){
+                Iterator<Tarefa> iter = tarefas.iterator();
+                while (iter.hasNext()){
+                    Tarefa tarefa = iter.next();
                     if (dependente == tarefa.getValor()){
                         tarefa.setNumeroDeDependecias(tarefa.getNumeroDeDependecias() - 1);
                         listaDeDependentes.remove(dependente);
                         if (numeroDepenenciasIgualAZero(tarefa.getNumeroDeDependecias())){
                             fila.insert(tarefa);
-                            tarefas.remove(tarefa);
+                            iter.remove();
                         }
                     }
                 }
