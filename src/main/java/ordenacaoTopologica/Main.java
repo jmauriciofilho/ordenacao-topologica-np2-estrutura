@@ -45,30 +45,30 @@ import java.util.stream.Stream;
  */
 public class Main {
 
-    private static final String DELIMITADORES = "\\(|\\)";
 
     public static void main(String[] args) {
         String fileName = "/home/mauricio/workspace/OrdenacaoTopologica/src/main/java/ordenacaoTopologica/entrada";
         InputStream input;
-       try {
-           input = new FileInputStream(fileName);
-           processa(input);
-       } catch (IOException e) {
-           e.printStackTrace();
-       }
+        try {
+            input = new FileInputStream(fileName);
+            processa(input);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private static void processa(InputStream input) throws IOException {
-        List<Tarefa> tarefas = entrada(input);
-        int resultado = ordena();
-        saida(resultado);
+        List<Problema> tarefas = entrada(input);
+        //int resultado = ordena();
+        //saida(resultado);
     }
 
-    private static List<Tarefa> entrada(InputStream input) throws IOException {
+    private static List<Problema> entrada(InputStream input) throws IOException {
         InputStreamReader reader = new InputStreamReader(input);
         BufferedReader br = new BufferedReader(reader);
-        Stream<String> linhas = br.lines();
-        
+        List<String> linhas = ManipulandoDados.armazenandoLinhas(br);
+        //List<Problema> problemas
+        ManipulandoDados.armazenandoProblemas(linhas);
         br.close();
         return null;
     }
