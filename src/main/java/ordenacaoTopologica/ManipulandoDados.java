@@ -3,18 +3,12 @@ package ordenacaoTopologica;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
  * Created by mauricio on 03/06/17.
  */
 public class ManipulandoDados {
-
-    public static void armazenandoProblemas(List<String> linhas){
-        List<Tarefa> tarefas = criarTarefas(linhas);
-        System.out.println(linhas);
-    }
 
     public static List<String> armazenandoLinhas(BufferedReader br) throws IOException {
         String linha;
@@ -26,13 +20,28 @@ public class ManipulandoDados {
         return linhas;
     }
 
-    private static List<Tarefa> criarTarefas(List<String> linhas){
+    public static Problema armazenarProblema(List<String> linhas){
+        List<List<Tarefa>> problemas = criarListaDeListasDeTarefa(linhas);
+        return new Problema(problemas);
+    }
+
+    private static List<List<Tarefa>> criarListaDeListasDeTarefa(List<String> linhas){
+        List<List<Tarefa>> problemas = new ArrayList<>();
+        for (String linha : linhas){
+            if (linha != null){
+                List<Tarefa> tarefas = criarListaDeTarefas(linha);
+                problemas.add(tarefas);
+            }
+        }
+        return problemas;
+    }
+
+    private static List<Tarefa> criarListaDeTarefas(String linha){
         List<Tarefa> tarefas = new ArrayList<>();
-        int valor = 1;
-        int numeroDependencias = 1;
-        ArrayList<Integer> listaDeDependentes = new ArrayList<>();
-        Tarefa tarefa = new Tarefa(valor, numeroDependencias, listaDeDependentes);
-        tarefas.add(tarefa);
+        String string = linha.replaceAll(" ", "");
+
+        
+        System.out.println(string);
         return tarefas;
     }
 }

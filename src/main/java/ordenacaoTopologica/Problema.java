@@ -1,6 +1,5 @@
 package ordenacaoTopologica;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -8,17 +7,17 @@ import java.util.List;
  */
 public class Problema {
 
-    private List<Tarefa> problema;
+    private List<List<Tarefa>> problema;
 
-    public Problema(List<Tarefa> problema) {
+    public Problema(List<List<Tarefa>> problema) {
         this.problema = problema;
     }
 
-    public List<Tarefa> getProblema() {
+    public List<List<Tarefa>> getProblema() {
         return problema;
     }
 
-    public void setProblema(List<Tarefa> problema) {
+    public void setProblema(List<List<Tarefa>> problema) {
         this.problema = problema;
     }
 }

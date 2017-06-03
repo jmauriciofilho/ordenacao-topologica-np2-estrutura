@@ -36,6 +36,7 @@
 package ordenacaoTopologica;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 import java.util.stream.Stream;
@@ -58,19 +59,18 @@ public class Main {
     }
 
     private static void processa(InputStream input) throws IOException {
-        List<Problema> tarefas = entrada(input);
+        Problema problema= entrada(input);
         //int resultado = ordena();
         //saida(resultado);
     }
 
-    private static List<Problema> entrada(InputStream input) throws IOException {
+    private static Problema entrada(InputStream input) throws IOException {
         InputStreamReader reader = new InputStreamReader(input);
         BufferedReader br = new BufferedReader(reader);
         List<String> linhas = ManipulandoDados.armazenandoLinhas(br);
-        //List<Problema> problemas
-        ManipulandoDados.armazenandoProblemas(linhas);
+        Problema problema = ManipulandoDados.armazenarProblema(linhas);
         br.close();
-        return null;
+        return problema;
     }
 
     private static int ordena(){
