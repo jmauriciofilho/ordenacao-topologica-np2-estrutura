@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0350a0af-4a7c-41c9-88ae-c40bab916c90" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/ManipulandoDados.java" afterPath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/ManipulandoDados.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Tarefa.java" afterPath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Tarefa.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,10 +32,12 @@
       <file leaf-file-name="ManipulandoDados.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/ManipulandoDados.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="55" column="44" lean-forward="true" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+            <state relative-caret-position="323">
+              <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2371#2372#0" expanded="true" />
+                <element signature="e#2395#2396#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -713,12 +714,12 @@
       <workItem from="1496249540347" duration="11241000" />
       <workItem from="1496407787911" duration="14275000" />
       <workItem from="1496500717914" duration="879000" />
-      <workItem from="1496501699430" duration="20315000" />
+      <workItem from="1496501699430" duration="20665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77332000" />
+    <option name="totallyTimeSpent" value="77682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -1126,10 +1127,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/ManipulandoDados.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="55" column="44" lean-forward="true" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+        <state relative-caret-position="323">
+          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2371#2372#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
           </folding>
         </state>
       </provider>

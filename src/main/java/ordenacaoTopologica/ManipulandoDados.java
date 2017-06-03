@@ -53,10 +53,19 @@ public class ManipulandoDados {
             tarefas.add(tarefa);
         }
         for (Tarefa tarefa : tarefas){
-            tarefa.setNumeroDeDependecias();
-            tarefa.setListaDependencias();
+            tarefa.setNumeroDeDependecias(retornaNumeroDeDependecia(listaDeDependentes, tarefa.getValor()));
+            tarefa.setListaDependencias(retornaLisDependencias(listaDeDependentes, tarefa.getValor(), tarefas));
         }
-        System.out.println(quantidadeDeTarefas);
         return tarefas;
     }
+
+    private static List<Integer> retornaLisDependencias(List<String> listaDeDependentes, int valor, List<Tarefa> tarefas) {
+        return null;
+    }
+
+    private static int retornaNumeroDeDependecia(List<String> listaDeDependentes, int valor) {
+        return 0;
+    }
+
+
 }
