@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.StringTokenizer;
 
 /**
  * Created by mauricio on 03/06/17.
@@ -38,10 +39,24 @@ public class ManipulandoDados {
 
     private static List<Tarefa> criarListaDeTarefas(String linha){
         List<Tarefa> tarefas = new ArrayList<>();
+        List<String> listaDeDependentes = new ArrayList<>();
         String string = linha.replaceAll(" ", "");
-
-        
-        System.out.println(string);
+        StringTokenizer st = new StringTokenizer(string, "(\\(|\\)");
+        int quantidadeDeTarefas = Integer.parseInt(st.nextToken());
+        int quantidadeTokens = st.countTokens();
+        for (int i = 0; i < quantidadeTokens; i++){
+            listaDeDependentes.add(st.nextToken());
+        }
+        for (int i = 0; i < quantidadeDeTarefas; i++){
+            Tarefa tarefa = new Tarefa();
+            tarefa.setValor(i+1);
+            tarefas.add(tarefa);
+        }
+        for (Tarefa tarefa : tarefas){
+            tarefa.setNumeroDeDependecias();
+            tarefa.setListaDependencias();
+        }
+        System.out.println(quantidadeDeTarefas);
         return tarefas;
     }
 }

@@ -12,6 +12,8 @@ public class Tarefa {
     private int numeroDeDependecias;
     private List<Integer> listaDeDependentes;
 
+    public Tarefa() {}
+
     public Tarefa(int valor, int numeroDeDependecias) {
         this.valor = valor;
         this.numeroDeDependecias = numeroDeDependecias;

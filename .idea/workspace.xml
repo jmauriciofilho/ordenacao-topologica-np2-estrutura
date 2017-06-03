@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0350a0af-4a7c-41c9-88ae-c40bab916c90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Main.java" afterPath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/ManipulandoDados.java" afterPath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/ManipulandoDados.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Problema.java" afterPath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Problema.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Tarefa.java" afterPath="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Tarefa.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,8 +33,8 @@
       <file leaf-file-name="ManipulandoDados.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/ManipulandoDados.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+            <state relative-caret-position="313">
+              <caret line="55" column="44" lean-forward="true" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,8 +45,8 @@
       <file leaf-file-name="Tarefa.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Tarefa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+            <state relative-caret-position="164">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -96,13 +95,13 @@
         <option value="$PROJECT_DIR$/src/main/java/Lista/ListaSimples.java" />
         <option value="$PROJECT_DIR$/src/main/java/lista/ListaSimples.java" />
         <option value="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Pilha.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Tarefa.java" />
         <option value="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Fila.java" />
         <option value="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/entrada" />
         <option value="$PROJECT_DIR$/src/test/java/TesteOrdenacaoTopologica.java" />
         <option value="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/OrdenacaoTopologica.java" />
         <option value="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Problema.java" />
         <option value="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Tarefa.java" />
         <option value="$PROJECT_DIR$/src/main/java/ordenacaoTopologica/ManipulandoDados.java" />
       </list>
     </option>
@@ -714,12 +713,12 @@
       <workItem from="1496249540347" duration="11241000" />
       <workItem from="1496407787911" duration="14275000" />
       <workItem from="1496500717914" duration="879000" />
-      <workItem from="1496501699430" duration="19063000" />
+      <workItem from="1496501699430" duration="20315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76080000" />
+    <option name="totallyTimeSpent" value="77332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -1102,6 +1101,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Tarefa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Problema.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -1117,18 +1124,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/Tarefa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ordenacaoTopologica/ManipulandoDados.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        <state relative-caret-position="313">
+          <caret line="55" column="44" lean-forward="true" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
