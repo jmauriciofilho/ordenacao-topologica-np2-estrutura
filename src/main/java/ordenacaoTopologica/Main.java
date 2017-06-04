@@ -60,8 +60,8 @@ public class Main {
 
     private static void processa(InputStream input) throws IOException {
         Problema problema= entrada(input);
-        //int resultado = ordena();
-        //saida(resultado);
+        List<List<Integer>> resultado = ordena(problema);
+        saida(resultado);
     }
 
     private static Problema entrada(InputStream input) throws IOException {
@@ -73,16 +73,27 @@ public class Main {
         return problema;
     }
 
-    private static int ordena(){
-        return 5;
+    private static List<List<Integer>> ordena(Problema problema){
+        List<List<Integer>> respostas = new ArrayList<>();
+        for (int i = 0; i < problema.getProblema().size(); i++){
+            respostas.add(OrdenacaoTopologica.ordenacaoTopologica(problema.getProblema().get(i)));
+        }
+        return respostas;
     }
 
-    private static void saida(int resultado) throws IOException {
+    private static void saida(List<List<Integer>> resultado) throws IOException {
         String fileName = "/home/mauricio/workspace/OrdenacaoTopologica/src/main/java/ordenacaoTopologica/saida";
         OutputStream os = new FileOutputStream(fileName);
         OutputStreamWriter osw = new OutputStreamWriter(os);
         BufferedWriter bw = new BufferedWriter(osw);
-        bw.write(Integer.toString(resultado));
+        for (List<Integer> resultados : resultado){
+            System.out.println(resultados);
+            for (Integer i : resultados){
+                bw.write(Integer.toString(i));
+                bw.write(" ");
+            }
+            bw.write("\n");
+        }
         bw.close();
     }
 
