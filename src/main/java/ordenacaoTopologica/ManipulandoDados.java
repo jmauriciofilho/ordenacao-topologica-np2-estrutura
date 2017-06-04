@@ -59,12 +59,26 @@ public class ManipulandoDados {
         return tarefas;
     }
 
-    private static List<Integer> retornaLisDependencias(List<String> listaDeDependentes, int valor, List<Tarefa> tarefas) {
-        return null;
+    private static List<Integer> retornaLisDependencias(List<String> dependentes, int valor, List<Tarefa> tarefas) {
+        List<Integer> listaDeDependentes = new ArrayList<>();
+        for (String dependente : dependentes){
+            String[] vetor = dependente.split(",");
+            if (valor == Integer.parseInt(vetor[0])){
+                listaDeDependentes.add(Integer.parseInt(vetor[1]));
+            }
+        }
+        return listaDeDependentes;
     }
 
     private static int retornaNumeroDeDependecia(List<String> listaDeDependentes, int valor) {
-        return 0;
+        int count = 0;
+        for (String dependente : listaDeDependentes){
+            String[] dependnetes = dependente.split(",");
+            if (valor == Integer.parseInt(dependnetes[1])){
+                count++;
+            }
+        }
+        return count;
     }
 
 
