@@ -2,7 +2,7 @@
  * 	Professor:
  *		- Adriano Patrick do Nascimento Cunha - adriano.cunha@unifor.br
  *	Equipe:
- *		- nome - email
+ *		- José Maurício Barbosa Pereira Filho - josemauriciobpfilho@gmail.com
  *		- nome - email
  *	Problema:
  * 		QUESTÃO ÚNICA:
@@ -38,10 +38,11 @@ package ordenacaoTopologica;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.StringTokenizer;
-import java.util.stream.Stream;
 
 /**
+ * @author patrick.cunha
+ * @since 24/05/2017 - Ordenação Topológica
+ *
  * Created by mauricio on 02/06/17.
  */
 public class Main {
